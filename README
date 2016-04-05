@@ -1,0 +1,36 @@
+INTRODUCTION
+
+This repository contains the CSCI 5314 final projects for the QIIME and mothur UniFrac benchmarking
+and reimplementation proposals. The repository is organized as follows
+
+CSCI5314-FinalProject/
+  LICENSE                              GNU Public License v3
+  README                               This file
+  README.md                            "markdown" readme file, used by github
+
+  unifrac-common/                      Common files and utilities between both projects
+  unifrac-common/benchmarking-bio/     Bio benchmarking scripts and utilities
+  unifrac-common/benchmarking-system/  Systems benchmarking scripts and utilities
+
+  unifrac-qiime/                       The QIIME  UniFrac project space
+  unifrac-qiime-writeup/               The QIIME  project final paper
+
+  unifrac-mothur/                      The mothur UniFrac project space
+  unifrac-mothur-writeup/              The mothur project final paper
+
+...
+
+COMPILATION
+
+Please see the included makefile for compilation details, but in summary to compile:
+
+gcc -Wall -g -c ...
+gcc -lpthread -lpopt -o ...
+
+EXECUTION
+
+
+REFERENCES
+
+ACM SIG LaTeX2e May 2015 template downloaded from:
+http://www.acm.org/publications/article-templates/proceedings-template.html/
