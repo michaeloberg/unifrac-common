@@ -3,20 +3,14 @@ INTRODUCTION
 This repository contains the CSCI 5314 final projects for the QIIME and mothur UniFrac benchmarking
 and reimplementation proposals. The repository is organized as follows
 
-CSCI5314-FinalProject/
-  LICENSE                              GNU Public License v3
-  README                               This file
-  README.md                            "markdown" readme file, used by github
-
-  unifrac-common/                      Common files and utilities between both projects
-  unifrac-common/benchmarking-bio/     Bio benchmarking scripts and utilities
-  unifrac-common/benchmarking-system/  Systems benchmarking scripts and utilities
-
-  unifrac-qiime/                       The QIIME  UniFrac project space
-  unifrac-qiime-writeup/               The QIIME  project final paper
-
-  unifrac-mothur/                      The mothur UniFrac project space
-  unifrac-mothur-writeup/              The mothur project final paper
+  LICENSE                GNU Public License v3
+  README                 This file
+  README.md              "markdown" readme file, used by github
+  benchmarking-bio/      Biological analysis accuracy/precision scripts and utilities
+  benchmarking-system/   Systems performance benchmarking scripts and utilities
+  grinder/               Grider simulated samples
+  writeup-mothur/        The mothur project final paper
+  writeup-qiime/         The QIIME  project final paper
 
 ...
 
